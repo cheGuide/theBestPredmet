@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  algorithm:
+    build: .
+    container_name: tioi_pz1
+    volumes:
+      - .:/tioi_pz1
+    command: python pz1.py
