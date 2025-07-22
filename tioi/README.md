@@ -5,7 +5,7 @@
 ## 📂 Проекты
 
 ### 🧠 [TIOI PZ1 - Логический движок](./tioi_pz1/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/[YOUR_USERNAME]/tioi/blob/main/tioi_pz1/TIOI_PZ1_Colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/drive/1L0axdWmna_ukPVVUhGfuOm3FFHrplHk2#scrollTo=N-eZl7XCamST)
 
 **Возможности:** Логический вывод, бенчмаркинг, градиентный спуск с нуля
 - Собственная реализация ML алгоритмов
@@ -13,7 +13,7 @@
 - Docker поддержка
 
 ### 🔢 [TIOI PZ2 - MNIST Классификация](./tioi_pz2/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/[YOUR_USERNAME]/tioi/blob/main/tioi_pz2/TIOI_PZ2_MNIST_Colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/drive/1-BdXMtZcvwDeFvQcSlCfM0X_bc9jS_Z7#scrollTo=ZEwsC2csbRCm)
 
 **Возможности:** Определение чётности цифр, MLflow tracking
 - Нейросети с нуля (forward/backward pass)
@@ -21,9 +21,9 @@
 - Точность: 97.66%
 
 ### 🎙️ [Digit Recognition - AutoML](./digit_recognition/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/[YOUR_USERNAME]/tioi/blob/main/digit_recognition/Digit_Recognition_AutoML_Colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/drive/1JfwS2D_MANB2eBAn_mMbo4dVN1a-pmXh#scrollTo=UZ8HJrKbVW_I)
 
-**Революционный подход:** Голос → Computer Vision → Классификация
+**Подход:** Голос → Computer Vision → Классификация
 - AutoML с AutoKeras
 - MLflow для tracking экспериментов
 - Transfer Learning (ImageNet → Audio)
@@ -45,7 +45,7 @@ cd ../tioi_pz2 && python main.py --model nn --load weights/model_nn.npz
 cd ../digit_recognition && python test_prediction.py audio/1_nicolas_18.wav
 ```
 
-## 📊 Результаты
+##  Результаты
 
 | Проект | Технологии | Результат |
 |--------|------------|-----------|
@@ -53,21 +53,6 @@ cd ../digit_recognition && python test_prediction.py audio/1_nicolas_18.wav
 | TIOI PZ2 | TensorFlow, MLflow | Точность: **97.66%** на MNIST |
 | Digit Recognition | AutoKeras, MLflow | **AutoML** нашёл лучшую архитектуру |
 
-## 🎓 Образовательная ценность
-
-### Освоенные технологии:
-- **Classical ML**: Градиентный спуск, логистическая регрессия
-- **Deep Learning**: Нейронные сети, CNN, backpropagation
-- **AutoML**: AutoKeras, гиперпараметр-оптимизация
-- **MLOps**: MLflow, эксперимент-трекинг
-- **Signal Processing**: Спектрограммы, FFT
-- **DevOps**: Docker, контейнеризация
-
-### Инновационные подходы:
-- 🎙️ **Междисциплинарность**: Акустика → Computer Vision
-- 🤖 **AutoML Pipeline**: Автоматический поиск архитектуры
-- 📈 **MLOps**: Полный жизненный цикл ML
-- 🔄 **Transfer Learning**: ImageNet → Audio Classification
 
 ## 📁 Структура репозитория
 
@@ -93,59 +78,3 @@ tioi/
     └── spectrogram_dataset/                 # Спектрограммы
 ```
 
-## 🏆 Ключевые достижения
-
-1. **🎙️ Голос через зрение**: Первый проект, который "слышит" через computer vision
-2. **🔬 Полная реализация**: Градиентный спуск и нейросети без готовых решений  
-3. **🤖 AutoML интеграция**: Современный MLOps в образовательном проекте
-4. **📊 Production-ready**: Docker, MLflow, версионирование
-
-## 📞 Контакты
-
-- **Автор**: [Ваше имя]
-- **Email**: [ваш email]
-- **Курс**: TIOI
-- **Год**: 2025
-
-## 🎓 Инструкции для преподавателя
-
-### 🚀 Вариант 1: Быстрая проверка (5 минут на проект)
-**Не требует установки ничего локально**
-
-1. Нажмите любую кнопку [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] выше
-2. В Google Colab: **Runtime** → **Run all** 
-3. Ожидайте результаты (5-15 минут на проект)
-
-**Что увидите:**
-- **TIOI PZ1**: Логический вывод `[1,2] → [1,2,10,50]` + графики бенчмарка
-- **TIOI PZ2**: Точность 97.66% на MNIST + confusion matrix + MLflow метрики  
-- **Digit Recognition**: AutoML результаты + спектрограммы + детальная аналитика
-
-### 🔍 Вариант 2: Детальное изучение (30 минут)
-**Для углубленного анализа кода**
-
-```bash
-# Клонирование
-git clone https://github.com/[YOUR_USERNAME]/tioi.git
-cd tioi
-
-# Запуск проектов
-cd tioi_pz1 && python pz1.py                    # Логический движок
-cd ../tioi_pz2 && python main.py --model nn     # MNIST классификация  
-cd ../digit_recognition && python test_prediction.py audio/1_nicolas_18.wav
-
-# MLflow UI (полный интерфейс)
-cd tioi_pz2  # или digit_recognition 
-mlflow ui
-# Откройте: http://localhost:5000
-```
-
-### 📋 Что оценивать:
-- **Техническая реализация**: Алгоритмы с нуля, правильность кода
-- **Инновационность**: Междисциплинарный подход (голос → зрение)
-- **MLOps практики**: MLflow tracking, версионирование  
-- **Документация**: README, комментарии, структура проекта
-
----
-
-**🚀 Все проекты готовы к запуску одним кликом в Google Colab!**
