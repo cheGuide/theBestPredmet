@@ -59,8 +59,6 @@ cd ../digit_recognition && python test_prediction.py audio/1_nicolas_18.wav
 ```
 tioi/
 ├── 📄 README.md                           # Этот файл
-├── 📄 Google_Colab_Instructions.md        # Инструкции для Colab
-├── 📄 COMPLETE_PROJECT_OVERVIEW.md        # Полный обзор
 ├── 🧠 tioi_pz1/                          # Логический движок
 │   ├── TIOI_PZ1_Colab.ipynb             # Google Colab
 │   ├── pz1.py                           # Основная программа
