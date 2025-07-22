@@ -5,7 +5,7 @@
 ## 📂 Проекты
 
 ### 🧠 [TIOI PZ1 - Логический движок](./tioi_pz1/)
-[![Open In Colab](https://colab.research.google.com/drive/1L0axdWmna_ukPVVUhGfuOm3FFHrplHk2#scrollTo=N-eZl7XCamST)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1L0axdWmna_ukPVVUhGfuOm3FFHrplHk2#scrollTo=N-eZl7XCamST)
 
 **Возможности:** Логический вывод, бенчмаркинг, градиентный спуск с нуля
 - Собственная реализация ML алгоритмов
@@ -13,7 +13,7 @@
 - Docker поддержка
 
 ### 🔢 [TIOI PZ2 - MNIST Классификация](./tioi_pz2/)
-[![Open In Colab](https://colab.research.google.com/drive/1-BdXMtZcvwDeFvQcSlCfM0X_bc9jS_Z7#scrollTo=ZEwsC2csbRCm)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-BdXMtZcvwDeFvQcSlCfM0X_bc9jS_Z7#scrollTo=ZEwsC2csbRCm)
 
 **Возможности:** Определение чётности цифр, MLflow tracking
 - Нейросети с нуля (forward/backward pass)
@@ -21,7 +21,7 @@
 - Точность: 97.66%
 
 ### 🎙️ [Digit Recognition - AutoML](./digit_recognition/)
-[![Open In Colab](https://colab.research.google.com/drive/1JfwS2D_MANB2eBAn_mMbo4dVN1a-pmXh#scrollTo=UZ8HJrKbVW_I)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JfwS2D_MANB2eBAn_mMbo4dVN1a-pmXh#scrollTo=UZ8HJrKbVW_I)
 
 **Подход:** Голос → Computer Vision → Классификация
 - AutoML с AutoKeras
